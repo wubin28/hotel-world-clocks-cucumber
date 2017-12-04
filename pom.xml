@@ -28,14 +28,6 @@
         </configuration>
       </plugin>
 
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>2.12.2</version>
-        <configuration>
-          <useFile>false</useFile>
-        </configuration>
-      </plugin>
     </plugins>
   </build>
 
@@ -50,12 +42,6 @@
       <groupId>info.cukes</groupId>
       <artifactId>cucumber-junit</artifactId>
       <version>1.1.2</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.rubiconproject.oss</groupId>
-      <artifactId>jchronic</artifactId>
-      <version>0.2.6</version>
       <scope>test</scope>
     </dependency>
     <dependency>
