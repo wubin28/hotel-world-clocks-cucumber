@@ -1,9 +1,10 @@
 package com.wubinben.katas.bdd.cucumber;
 
+import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@Cucumber.Options(format = {"pretty", "html:target/cucumber-html-report", "json-pretty:target/cucumber-report.json"})
+@CucumberOptions(features = { "classpath:com/wubinben/katas/bdd/cucumber/hotel_world_clocks.feature" })
 public class RunCukesTest {
 }
